@@ -1270,9 +1270,14 @@ nav {
   <div class="hero">
     <div class="hero-badge">🎵 Complete Home Studio Guide</div>
     <h1>YOUR <span class="accent-coral">STUDIO.</span><br>YOUR <span class="accent-teal">SOUND.</span></h1>
-    <p class="hero-sub">Turn your laptop into a professional recording studio. From first idea to your first release — everything you need, step by step.</p>
+    <p class="hero-sub">
+      <span style="display:block; margin-bottom:10px;">
+        This site is for anyone who wants to release music without spending a lot of money on professional services. You don't have to be a professional musician to get your music published!
+      </span>
+      Turn your laptop into a professional recording studio. From first idea to your first release. Everything you need, step by step.</p>
     <div class="hero-cta-row">
       <button class="btn-primary" onclick="navigate('equipment')">🚀 Start Here: Equipment</button>
+      <button class="btn-secondary" onclick="navigate('my-story')">📝 My Story</button>
       <button class="btn-secondary" onclick="navigate('community')">💬 Join the Community</button>
     </div>
   </div>
@@ -1359,27 +1364,29 @@ nav {
     <div class="section-heading" style="margin-bottom:24px"><div class="dot" style="background:#FF6B6B"></div>Essential Gear</div>
 
     <table class="gear-table">
-      <thead><tr><th>Item</th><th>Recommended</th><th>Budget Option</th><th>Price</th><th>Priority</th></tr></thead>
+      <thead><tr><th>Item</th><th>To Start With</th><th>Upgrade</th><th>Price</th><th>Priority</th></tr></thead>
       <tbody>
-        <tr><td>Laptop</td><td>What you already have</td><td>MAc or I7 laptop</td><td class="price">$0</td><td class="essential">MUST HAVE</td></tr>
+        <tr><td>Laptop</td><td>What you already have</td><td>Mac or I7 laptop</td><td class="price">$0</td><td class="essential">MUST HAVE</td></tr>
         <tr><td>Cables</td><td>Amazon</td><td>Whatever you find on Amazon</td><td class="price">$20</td><td class="essential">MUST HAVE</td></tr>
         <tr><td>Audio Interface</td><td>Focusrite Scarlett solo</td><td>Behringer UM2</td><td class="price">$100–200</td><td class="essential">MUST HAVE</td></tr>
         <tr><td>Microphone</td><td>SM 58</td><td>Fifine T669</td><td class="price">$30–150</td><td class="essential">MUST HAVE</td></tr>
         <tr><td>Headphones</td><td>Sony MDR-7506</td><td>Sony MDR-ZX110</td><td class="price">$25–120</td><td class="essential">MUST HAVE</td></tr>
-        <tr><td>DAW Software</td><td>Logic Pro / Ableton</td><td>GarageBand (free) / Reaper</td><td class="price">Free–$100</td><td class="essential">MUST HAVE</td></tr>
+        <tr><td>DAW Software</td><td>GarageBand / Ableton lite</td><td>Logic pro / Reaper</td><td class="price">Free–$100</td><td class="essential">MUST HAVE</td></tr>
         <tr><td>Studio Monitors</td><td>Yamaha HS5</td><td>Mackie CR3-X</td><td class="price">$100–450</td><td style="color:#FB923C;font-weight:700;font-size:12px">UPGRADE</td></tr>
-        <tr><td>MIDI Keyboard</td><td>Arturia MiniLab 3</td><td>Akai MPK Mini</td><td class="price">$60–130</td><td style="color:#4ADE80;font-weight:700;font-size:12px">NICE TO HAVE</td></tr>
+        <tr><td>MIDI Keyboard</td><td>Your keyboard</td><td>Akai MPK Mini</td><td class="price">$60–130</td><td style="color:#4ADE80;font-weight:700;font-size:12px">NICE TO HAVE</td></tr>
         <tr><td>Pop Filter</td><td>Aokeo Professional</td><td>Any clip-on foam</td><td class="price">$8–25</td><td style="color:#4ADE80;font-weight:700;font-size:12px">RECOMMENDED</td></tr>
         <tr><td>Mic Stand</td><td>K&M 210/9</td><td>Neewer Boom Stand</td><td class="price">$20–60</td><td style="color:#4ADE80;font-weight:700;font-size:12px">RECOMMENDED</td></tr>
       </tbody>
     </table>
 
     <div class="section-heading2" style="margin-top:32px; margin-bottom:20px"><div class="dot" style="background:#4ECDC4"></div>Computer</div>
-    To start with, you can use your own desktop or laptop. If you want to use a laptop, you should use a laptop with a good processor and enough RAM. I am using an i7 laptop.
+    To start with, you can use your own desktop or laptop. If you want to use a laptop, you should use a laptop with a good processor and enough RAM. It doesn't have to be expensive computer, I am using an 6 years old i7 laptop.
     Make sure you have enough USB ports to connect all your equipment and enough storage to save your recordings.
     
     <div class="section-heading2" style="margin-top:32px; margin-bottom:20px""><div class="dot" style="background:#4ECDC4"></div>Audio Interface</div>
-    The goal of the audio interface is to capture the guitars and vocals to your computer. Generally, it translates analog signal to digital signals. It is also serves as an external sound card, offloading some of the processing from your computer. It is usually connected to the computer over USB. I am using a scarlett focusrite solo
+    The goal of the audio interface is to capture the guitars and vocals to your computer. Generally, it translates analog signal to digital signals. It is also serves as an external sound card, offloading some of the processing from your computer. It is usually connected to the computer over USB. <br>
+    Different audio interfaces may have different number and types of inputs, different quality (sample rate, bit depth and latency). <br>
+    This is one of the items you want invest for a good qulity. However, you may start with audio interface with single audio and single XLR inputs.
    
     <div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start; margin: 24px 0;">
       <div style="flex:1; min-width:240px; text-align:center;">
@@ -1409,7 +1416,13 @@ nav {
     <div class="section-heading2" style="margin-top:32px; margin-bottom:20px"><div class="dot" style="background:#4ECDC4"></div>Digital audio workstation (DAW)</div>
     A digital audio workstation (DAW), this is the software that you will edit your song. It allows you to record to your computer, edit the inputs, add sound effects and midi channels. I started with a simple version of Ableton live 11 lite that came with the focusrite audio interface. It is useful for startup, and you can add a lot of plugins to it. After some time using the lite version, I decide to upgrade to standard, mainly because of some extra useful features. But some of my early recording was done with the lite version
     
-    
+    <div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start; margin: 24px 0;">
+      <div style="flex:1; min-width:240px; text-align:center;">
+        <img src="images/DAW.jpg" alt="Screenshot of a Digital Audio Workstation (DAW)" style="max-width:100%; width:400px; margin-bottom:10px; border-radius:8px; box-shadow:0 2px 18px rgba(0,0,0,0.08);">
+        <div style="font-size:13px; color:#555; margin-bottom:2px;"><b>DAW (Digital Audio Workstation)</b></div>
+        <div style="font-size:12px; color:#888;">A typical DAW window shows tracks, audio/MIDI regions, and a mixer. This is where you'll record, edit, and arrange your song.</div>
+      </div>
+    </div>
 
     <div class="section-heading2" style="margin-top:32px; margin-bottom:20px"><div class="dot" style="background:#4ECDC4"></div>DAW plugins</div>
     DAW plugins, if you want to add more useful effects to your record, you may want to add plugins. Plugins can include drum effects, guitar effects and amps, vocal effects, measuring tools, virtual keyboards. There are very good and useful plugins that you can get for free, this will extend your ability to use the DAW. As there are some standards formats among plugins software, most of the plugins are not specific to a DAW, and you can use them even if you switch to other DAW later on. Some of the popular formats includes VST and VST3. 
@@ -1418,10 +1431,35 @@ nav {
       
     <div class="section-heading2" style="margin-top:32px; margin-bottom:20px"><div class="dot" style="background:#4ECDC4"></div>Microphone</div>
     If you want to record vocals or musical instrument that have no audio interface or midi connection, you need s decent microphone. 
-    The two major types of microphones are Dynamic and Condenser.
-    Dynamic microphones (like the Shure SM58) are rugged, simple, and less sensitive to background noise. They handle loud sounds well, making them a great choice for live performance and home studio vocal or instrument recording where background noise might be a concern. Usually require more gain from your audio interface than condenser mics.
-    Condenser microphones are more sensitive and capture more detail, brightness, and nuance—making them popular for vocals and acoustic instruments in a controlled studio space. They require phantom power (48V) from your audio interface. Pick up more background noise, so they're best used in quieter environments.
-    For home recording, it will be easier to start with dynamic microphone. I use Shure SM58
+    <p>
+      Choosing the right microphone is crucial for quality recordings. There are two main types you’ll encounter: <b>dynamic</b> and <b>condenser</b> microphones. 
+      <div style="margin-bottom:18px;">
+        <div style="font-weight:bold; color:#4ECDC4; font-size:16px; margin-bottom:4px;">
+          Dynamic Microphones
+        </div>
+        <ul style="font-size:14px; margin-top:0; margin-bottom:8px; color:#333;">
+          <li>Durable, less sensitive to background noise, and great for untreated rooms.</li>
+          <li>Handle loud sounds well—ideal for vocals, guitar amps, and instruments in noisy spaces.</li>
+          <li>Require more gain from your audio interface but rarely need external power.</li>
+          <li><b>Examples:</b> Shure SM58, Sennheiser e835</li>
+          <li>If you’re just starting, a dynamic mic is usually the easiest way to get a clean vocal or instrument sound at home.</li>
+        </ul>
+      </div>
+      <div style="margin-bottom:18px;">
+        <div style="font-weight:bold; color:#4ECDC4; font-size:16px; margin-bottom:4px;">
+          Condenser Microphones
+        </div>
+        <ul style="font-size:14px; margin-top:0; margin-bottom:8px; color:#333;">
+          <li>Very sensitive—capture all the detail, nuance, and brightness in your voice or instrument.</li>
+          <li>Pick up more background noise, so they work best in quiet, well-treated rooms.</li>
+          <li>Require phantom power (usually 48V) from your audio interface.</li>
+          <li>The go-to for studio vocals, acoustic guitar, and any source you want to sound polished and clear.</li>
+        </ul>
+      </div>
+      <div style="font-size:13px; color:#555; margin-bottom:10px;">
+        <b>Tip:</b> If your room isn’t soundproofed, start with a dynamic microphone (like the Shure SM58). It’ll help minimize unwanted noise while giving you a solid, pro sound.
+      </div>
+    </p>
 
     <div style="margin-top:32px; margin-bottom:20px;" class="section-heading2">
       <div class="dot" style="background:#4ECDC4"></div>
@@ -2074,6 +2112,7 @@ nav {
       </div>
     </div>
 
+    
     <div style="display:flex; gap:16px; justify-content:flex-end; margin-top:40px;">
       <button class="btn-secondary" onclick="navigate('mixing')">← Mixing</button>
       <button class="btn-primary" onclick="navigate('publishing')" style="background:#0369a1; box-shadow: 0 4px 20px rgba(3,105,161,0.4);">Next: Publishing →</button>
@@ -2176,6 +2215,68 @@ nav {
     <div style="display:flex; gap:16px; justify-content:flex-end; margin-top:40px;">
       <button class="btn-secondary" onclick="navigate('mastering')">← Mastering</button>
       <button class="btn-primary" onclick="navigate('community')" style="background:#15803d; box-shadow: 0 4px 20px rgba(21,128,61,0.4);">🎉 Join the Community</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== MYSTORY PAGE ======  -->
+<div class="page" id="page-my-story">
+  <div style="background: linear-gradient(135deg, #f3e8ff, #f8fafc); padding: 72px 0;">
+    <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+      <div style="font-size: 44px; margin-bottom: 16px;">👋</div>
+      <h2 style="font-family: 'Righteous', sans-serif; font-size: 36px; color: var(--ink); margin-bottom: 18px;">My Story</h2>
+      <p style="font-size: 18px; color: #555; line-height: 1.75; margin-bottom: 32px;">
+        I’m not a professional musician, and I never formally studied music. I have a regular day job, but music has always been something I truly love, especially the process of creating it.
+        <br><br>
+        Many years ago, I wrote a song for my girlfriend, who is now my wife. I wanted to turn that song into a special gift by producing it into something that sounded professional, something I could even publish on Spotify. Just as important to me was being involved in every step of the process and having the freedom to shape the music exactly the way I imagined it.
+        <br><br>
+        In the end, I did everything myself, from the lyrics and composition, to recording, mixing, and mastering. And to my surprise, it turned out great.
+        <br><br>
+        If I could figure it out, so can you. This site is my way of sharing what I learned along the way, so you can turn your love for music into something real too.
+      </p>
+      <p>You can listen to my song on the following platforms:</p><br>
+      <div style="display: flex; justify-content: center; gap: 24px; margin-bottom: 28px;">
+        <a href="https://music.youtube.com/watch?v=vORJ2eVPCC4&si=RB1hntLh5RkoKfr3" target="_blank" title="Listen on YouTube Music" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; font-size:18px; color:#FF0000; font-weight:700;">
+          <svg width="26" height="26" viewBox="0 0 40 40" fill="currentColor" style="vertical-align:middle"><circle cx="20" cy="20" r="20" fill="#FF0000"/><polygon points="17,27 28,20 17,13" fill="#fff"/><circle cx="20" cy="20" r="7" fill="none" stroke="#fff" stroke-width="2"/></svg>
+          <span style="color:#222;">YouTube Music</span>
+        </a>
+        <a href="https://open.spotify.com/track/4f58MuGYKJwbLEQ1viOYuB?si=be4a15fba1e64e36" target="_blank" title="Listen on Spotify" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; font-size:18px; color:#1DB954; font-weight:700;">
+          <svg width="26" height="26" viewBox="0 0 40 40" fill="none" style="vertical-align:middle">
+            <circle cx="20" cy="20" r="20" fill="#1DB954"/>
+            <path d="M12 26c4-2 12-2 16 0" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M14 21c3.4-1.3 9.6-1.2 13 .2" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <path d="M15.5 17c3.3-1.2 7.8-1 10.8.2" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+          <span style="color:#222;">Spotify</span>
+        </a>
+        <a href="https://music.apple.com/il/artist/tomer-peretz/1616493702" target="_blank" title="Listen on Apple Music" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; font-size:18px; color:#000; font-weight:700;">
+          <svg width="26" height="26" viewBox="0 0 40 40" style="vertical-align:middle" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="#000" />
+            <path d="M25.5 14.2c-.8.5-2.1 1.1-3.2 1.2-.2-1 .7-2.2 1.7-2.7 1-.5 2.6-.7 3.3-.6-.1.6-.7 1.6-1.8 2.1zm-6.9 2.6c-1.1 0-3.2 1.1-4.2 3.5-1.2 2.8-.3 6.8 1.9 9.2.7.7 1.4 1.4 2.5 1.4 1 0 1.4-.3 2.6-.3s1.5.3 2.5.3c1.1 0 1.7-.7 2.4-1.5.7-.7 1-1.5 1.5-2.6-3.7-1.4-3.5-6.5.4-7.1-.2-.7-.6-1.5-1.1-2-.9-1-2-1.1-2.4-1.1-.1 0-1.2-.1-2.1-.1z" fill="#fff"/>
+          </svg>
+          <span style="color:#222;">Apple Music</span>
+        </a>
+      <a href="https://tidal.com/album/222951998/track/222951999" target="_blank" title="Listen on Tidal" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; font-size:18px; color:#000; font-weight:700;">
+        <svg width="26" height="26" viewBox="0 0 40 40" fill="none" style="vertical-align:middle">
+          <circle cx="20" cy="20" r="20" fill="#000"/>
+          <rect x="8" y="20" width="4" height="4" fill="#fff" />
+          <rect x="14" y="14" width="4" height="4" fill="#fff" />
+          <rect x="20" y="20" width="4" height="4" fill="#fff" />
+          <rect x="26" y="14" width="4" height="4" fill="#fff" />
+        </svg>
+        <span style="color:#222;">Tidal</span>
+      </a>
+      <a href="https://www.boomplay.com/songs/126129189?srModel=COPYLINK&srList=WEB&share_content=music&share_channel=copylink&share_platform=web" target="_blank" title="Listen on Boomplay" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; font-size:18px; color:#ffcf00; font-weight:700;">
+        <svg width="26" height="26" viewBox="0 0 40 40" fill="none" style="vertical-align:middle">
+          <circle cx="20" cy="20" r="20" fill="#FFCF00"/>
+          <path d="M20 11c-5 0-8.5 4-8.5 9.1 0 4.5 2.8 7.9 7.2 7.9 2.1 0 4.6-.7 6.6-2.3 0 .2-.2 2.1-.2 2.1-.1.7.3 1.3 1 1.3.6 0 1-.6 1.1-1.3.6-2.5 2.2-9.2 2.2-11.7C29.4 15 25.7 11 20 11zm0 13.3c-2 0-3.2-1.4-3.2-3.3 0-1.8 1.2-3.2 3.1-3.2s3.2 1.5 3.2 3.2c0 1.9-1.3 3.3-3.1 3.3z" fill="#000"/>
+        </svg>
+        <span style="color:#222;">Boomplay</span>
+      </a>
+      </div>
+      <div style="font-size: 20px; color: #A855F7; font-family: 'Space Mono', monospace;">
+        — Your Friendly Guide
+      </div>
     </div>
   </div>
 </div>
